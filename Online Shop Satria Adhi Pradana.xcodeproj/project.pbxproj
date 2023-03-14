@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF80332629C0C342004780AA /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF80332529C0C342004780AA /* Montserrat-SemiBold.ttf */; };
+		EF80332929C0D94C004780AA /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80332829C0D94C004780AA /* LoginHeaderView.swift */; };
+		EF80332B29C0EC40004780AA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80332A29C0EC40004780AA /* CustomTextField.swift */; };
+		EF80332D29C115CD004780AA /* EyeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80332C29C115CD004780AA /* EyeButton.swift */; };
 		EFB7808129BE0D4A00C6D049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7808029BE0D4A00C6D049 /* AppDelegate.swift */; };
 		EFB7808329BE0D4A00C6D049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7808229BE0D4A00C6D049 /* SceneDelegate.swift */; };
-		EFB7808529BE0D4A00C6D049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7808429BE0D4A00C6D049 /* ViewController.swift */; };
-		EFB7808829BE0D4A00C6D049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7808629BE0D4A00C6D049 /* Main.storyboard */; };
+		EFB7808529BE0D4A00C6D049 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7808429BE0D4A00C6D049 /* LoginViewController.swift */; };
 		EFB7808B29BE0D4A00C6D049 /* Online_Shop_Satria_Adhi_Pradana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFB7808929BE0D4A00C6D049 /* Online_Shop_Satria_Adhi_Pradana.xcdatamodeld */; };
 		EFB7808D29BE0D4B00C6D049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB7808C29BE0D4B00C6D049 /* Assets.xcassets */; };
 		EFB7809029BE0D4B00C6D049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7808E29BE0D4B00C6D049 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF80332529C0C342004780AA /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		EF80332829C0D94C004780AA /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		EF80332A29C0EC40004780AA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EF80332C29C115CD004780AA /* EyeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeButton.swift; sourceTree = "<group>"; };
 		EFB7807D29BE0D4A00C6D049 /* Online Shop Satria Adhi Pradana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Shop Satria Adhi Pradana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB7808029BE0D4A00C6D049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFB7808229BE0D4A00C6D049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFB7808429BE0D4A00C6D049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFB7808729BE0D4A00C6D049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB7808429BE0D4A00C6D049 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EFB7808A29BE0D4A00C6D049 /* Online_Shop_Satria_Adhi_Pradana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Online_Shop_Satria_Adhi_Pradana.xcdatamodel; sourceTree = "<group>"; };
 		EFB7808C29BE0D4B00C6D049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB7808F29BE0D4B00C6D049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +45,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF80332029C0A9CB004780AA /* Supporting Fiels */ = {
+			isa = PBXGroup;
+			children = (
+				EF80332429C0C2C7004780AA /* Fonts */,
+				EFB7808029BE0D4A00C6D049 /* AppDelegate.swift */,
+				EFB7808229BE0D4A00C6D049 /* SceneDelegate.swift */,
+				EFB7808C29BE0D4B00C6D049 /* Assets.xcassets */,
+				EFB7808E29BE0D4B00C6D049 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Fiels";
+			sourceTree = "<group>";
+		};
+		EF80332129C0ABBA004780AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EFB7808429BE0D4A00C6D049 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF80332229C0ADDE004780AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF80332329C0AE1D004780AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF80332429C0C2C7004780AA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EF80332529C0C342004780AA /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EF80332729C0D7EF004780AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF80332829C0D94C004780AA /* LoginHeaderView.swift */,
+				EF80332A29C0EC40004780AA /* CustomTextField.swift */,
+				EF80332C29C115CD004780AA /* EyeButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EFB7807429BE0D4A00C6D049 = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +116,11 @@
 		EFB7807F29BE0D4A00C6D049 /* Online Shop Satria Adhi Pradana */ = {
 			isa = PBXGroup;
 			children = (
-				EFB7808029BE0D4A00C6D049 /* AppDelegate.swift */,
-				EFB7808229BE0D4A00C6D049 /* SceneDelegate.swift */,
-				EFB7808429BE0D4A00C6D049 /* ViewController.swift */,
-				EFB7808629BE0D4A00C6D049 /* Main.storyboard */,
-				EFB7808C29BE0D4B00C6D049 /* Assets.xcassets */,
-				EFB7808E29BE0D4B00C6D049 /* LaunchScreen.storyboard */,
+				EF80332129C0ABBA004780AA /* Login */,
+				EF80332329C0AE1D004780AA /* Models */,
+				EF80332729C0D7EF004780AA /* Views */,
+				EF80332229C0ADDE004780AA /* Services */,
+				EF80332029C0A9CB004780AA /* Supporting Fiels */,
 				EFB7809129BE0D4B00C6D049 /* Info.plist */,
 				EFB7808929BE0D4A00C6D049 /* Online_Shop_Satria_Adhi_Pradana.xcdatamodeld */,
 			);
@@ -128,9 +185,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF80332629C0C342004780AA /* Montserrat-SemiBold.ttf in Resources */,
 				EFB7809029BE0D4B00C6D049 /* LaunchScreen.storyboard in Resources */,
 				EFB7808D29BE0D4B00C6D049 /* Assets.xcassets in Resources */,
-				EFB7808829BE0D4A00C6D049 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB7808B29BE0D4A00C6D049 /* Online_Shop_Satria_Adhi_Pradana.xcdatamodeld in Sources */,
-				EFB7808529BE0D4A00C6D049 /* ViewController.swift in Sources */,
+				EF80332929C0D94C004780AA /* LoginHeaderView.swift in Sources */,
+				EF80332B29C0EC40004780AA /* CustomTextField.swift in Sources */,
+				EFB7808529BE0D4A00C6D049 /* LoginViewController.swift in Sources */,
+				EF80332D29C115CD004780AA /* EyeButton.swift in Sources */,
 				EFB7808129BE0D4A00C6D049 /* AppDelegate.swift in Sources */,
 				EFB7808329BE0D4A00C6D049 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EFB7808629BE0D4A00C6D049 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFB7808729BE0D4A00C6D049 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFB7808E29BE0D4B00C6D049 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +348,6 @@
 				INFOPLIST_FILE = "Online Shop Satria Adhi Pradana/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +357,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Test.test.Online-Shop-Satria-Adhi-Pradana";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +378,6 @@
 				INFOPLIST_FILE = "Online Shop Satria Adhi Pradana/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Test.test.Online-Shop-Satria-Adhi-Pradana";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
