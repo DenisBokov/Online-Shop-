@@ -56,7 +56,6 @@ final class LoginViewController: UIViewController {
     
     private func setupPasswordTextField() {
         passwordField.rightView = eyeButton
-//        passwordField.rightView = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
         passwordField.rightViewMode = .always
     }
 }

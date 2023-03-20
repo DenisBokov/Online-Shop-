@@ -17,7 +17,7 @@ final class CustomTextField: UITextField {
     }
 
     private let loginFieldType: CustomTextFieldType
-    private let padding = UIEdgeInsets()
+    private let padding = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
     
     init(fieldType: CustomTextFieldType) {
         self.loginFieldType = fieldType
@@ -32,6 +32,7 @@ final class CustomTextField: UITextField {
             self.placeholder = "Email"
         case .password:
             setupTextField(placeholder: "Password")
+            isSecureTextEntry = true
         }
     }
     
